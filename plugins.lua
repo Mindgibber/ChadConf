@@ -5,6 +5,10 @@ local plugins = {
       require("plugins.configs.lspconfig")
       require("custom.configs.lspconfig")
     end,
-  }
+  },
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
 }
 return plugins
